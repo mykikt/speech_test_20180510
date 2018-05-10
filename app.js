@@ -39,7 +39,7 @@ speech.addEventListener( 'result' , function( e ) {
     content.textContent = text;
 
         // 「ビデオ」と認識されたら指定の関数を実行
-    if( text === "ビデオ" ) getVideo();
+    if( text === "バルス" ) getVideo();
   
 } );
 
